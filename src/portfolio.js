@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Bob Lin",
   logo_name: "Bob",
-  nickname: "Consultant, Software Engineer, Project Manager",
+  nickname: "Consultant, Software Engineer, Product Manager",
   subTitle:
     "A big believer in entrepreneurship and technology. My goal is to leverage technology to positively transform people's lives and businesses.",
   resumeLink:
@@ -211,7 +211,7 @@ const skills = {
     },
 
     {
-      title: "UI/UX Design",
+      title: "Product Management & UI/UX Design",
       fileName: "DesignImg",
       skills: [
         "⚡ Building highly attractive user interface for mobile and web applications",
@@ -380,6 +380,15 @@ const degrees = {
       website_link: "https://www.ntu.edu.sg/admissions/undergraduate",
     },
     {
+      title: "National University of Singapore",
+      subtitle: "B.Eng. in Computer Science",
+      logo_path: "nus.png",
+      alt_name: "National University of Singapore",
+      duration: "2021 - 2021",
+      descriptions: ["⚡ SUSEP Local Exchange Program"],
+      website_link: "https://www.nus.edu.sg",
+    },
+    {
       title: "Nanyang Technological University",
       subtitle: "M.S. in Technology Management",
       logo_path: "ntu.png",
@@ -395,6 +404,14 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Intermediate SQL Certificate",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank.png",
+      certificate_link: "https://www.hackerrank.com",
+      alt_name: "SQL",
+      color_code: "white",
+    },
     {
       title: "Bloomberg Market Concepts",
       subtitle: "- Blooemberg",
@@ -435,15 +452,26 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Product Manager (Data Science)",
+          company: "Shopee",
+          company_url: "https://www.shopee.sg",
+          logo_path: "Shopee-logo.png",
+          duration: "Aug 2021 - Nov 2021",
+          location: "Singapore",
+          description:
+            "Currently working on Shopee Translation machine learning models and language detection capabilities.",
+          color: "#09631a",
+        },
+        {
           title: "Technology Consulting Analyst",
           company: "Accenture",
           company_url: "https://accenture.com/",
           logo_path: "accenture.png",
-          duration: "May 2021 - PRESENT",
+          duration: "May 2021 - Aug 2021",
           location: "Singapore",
           description:
-            "Currently working on the nation-wide NEHR project for a client in the Health and Public Sector.",
-          color: "#8b369c",
+            "Worked on a Health and Public Sector project, developed new ways to streamline and improve BAU processes through automation.",
+          color: "#FEDD01",
         },
         {
           title: "Software Projects Consultant",
@@ -516,7 +544,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Although I don't have tons of free time, I like to build pet projects whenever I can. I'm particularly interested in automation to simplify daily-tasks, finance, and design.",
+    "Even if I don't have tons of free time, I like to build pet projects whenever I can. I'm particularly interested in automation to simplify daily-tasks, finance, and design.",
   avatar_image_path: "projects_image.svg",
 };
 

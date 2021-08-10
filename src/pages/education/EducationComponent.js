@@ -38,7 +38,9 @@ class Education extends Component {
                   className="greeting-text-p subTitle"
                   style={{ color: theme.subText }}
                 >
-                  I am current pursuing a Bachelor of Engineering (Computer Science) and Master of Science (Technology Management) at NTU's Renaissance Engineering Programme.
+                  I am current pursuing a Bachelor of Engineering (Computer
+                  Science) and Master of Science (Technology Management) at
+                  NTU's Renaissance Engineering Programme.
                 </p>
                 {/* <CompetitiveSites logos={competitiveSites.competitiveSites} /> */}
               </div>
