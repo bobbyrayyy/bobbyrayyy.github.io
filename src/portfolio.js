@@ -510,7 +510,7 @@ const experience = {
           location: "Singapore",
           description:
             "Offered extension by Yoozoo Games after the initial 3-month internship (May-Aug), spending a total of 9 months there. Implemented various TTS Machine Learning frameworks (tensorflow TTS, mozilla TTS, tacotron) to train multiple chatbots with different use cases.  Created both back-end and front-end development on AI Virtual Assistant and Chatbot projects, and its testing and maintenance (k6, Postman, flask, fastapi). Performed Computer Vision Machine Learning model conversions and designed/built 3D modelling solution for a Covid-19 response project (Autodesk Fusion), cutting company cost by >10x.",
-          color: "#fc1f20",
+          color: "#22af20",
         },
         {
           title: "Product/Project Management Lead",
