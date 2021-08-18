@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A big believer in entrepreneurship and technology. My goal is to leverage technology to positively transform people's lives and businesses.",
   resumeLink:
-    "https://drive.google.com/file/d/17Tit_7pAHMygNDdVzkjB-LmOCB1d64j8/view?usp=sharing",
+    "https://drive.google.com/file/d/1LokrEv9UNPQftsW7vTSNpoz_qKDVTCvt/view?usp=sharing",
   portfolio_repository: "https://github.com/bobbyrayyy",
   // transcript: "",
 };
@@ -97,8 +97,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Developing web/mobile applications using React/React Native",
-        "⚡ Creating application backend in Node & Flask",
-        "⚡ Server testing with k6 and Postman",
+        "⚡ Creating application backend in SQL, Node & Flask",
+        "⚡ Server testing and automation with k6, python scripts and Postman",
       ],
       softwareSkills: [
         {
@@ -107,6 +107,14 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "fa-database",
+          style: {
+            backgroundColor: "transparent",
+            color: "#4285F4",
           },
         },
         {
@@ -172,7 +180,7 @@ const skills = {
       title: "Data Science and Artifical Intelligence",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience in NLP, TTS and Smart Chatbots in various client use cases",
+        "⚡ Experience in NLP, Translation, Detection, TTS and Smart Chatbots in various client use cases",
         "⚡ Experience working with Computer Vision projects",
         "⚡ Quantitative modelling with regression and time series analysis",
       ],
@@ -214,9 +222,8 @@ const skills = {
       title: "Product Management & UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Building highly attractive user interface for mobile and web applications",
-        "⚡ Creating graphic designs, logos and images from scratch",
-        "⚡ Designing user flow through application functionalities to optimize user experience",
+        "⚡ Building highly attractive user interface for mobile and web applications, including graphics, logos, images",
+        "⚡ Use design thinking frameworks to create user story flow through product functionalities to optimize user experience",
         "⚡ Creating exciting and effective videos for presenting ideas in different use cases",
       ],
       softwareSkills: [
@@ -255,9 +262,8 @@ const skills = {
       title: "Consulting and Project Management",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Led teams on multiple propjects involving both SME and MNC clients",
-        "⚡ Highly-proficient in Microsoft Office and Google Suite productivity tools",
-        "⚡ Familiar with CRM tools and managed relations with multiple client accounts",
+        "⚡ Led teams on multiple propjects involving both SME and MNC clients, maintained great relations with partners and clients",
+        "⚡ Highly-proficient in Microsoft Office, Google Suite, and CRM tools",
         "⚡ Delivered end-to-end projects from initial proposal, UAT, development, execution and maintenance",
       ],
       softwareSkills: [
@@ -311,46 +317,46 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
@@ -366,7 +372,7 @@ const degrees = {
         "⚡ Awards and Acheivements: ",
         "· NTU Premier Scholars Programme, REP Scholarship",
         "⚡ Appointments: ",
-        "· Programme Director, NTU SCSE Innovation Lab",
+        "· Entrepreneurship Director, NTU SCSE Innovation Lab",
         "· Varsity Volleyball Athlete (Singapore University Games 2019, IVP 2019) ",
         "· Captain of Banyan Hall of Residence Volleyball Club 2019",
         "· Student Leader for REP Freshmen Orientation Camp 2020 ",
@@ -456,11 +462,22 @@ const experience = {
           company: "Shopee",
           company_url: "https://www.shopee.sg",
           logo_path: "Shopee-logo.png",
-          duration: "Aug 2021 - Nov 2021",
+          duration: "Aug 2021 - Present",
           location: "Singapore",
           description:
             "Currently working on Shopee Translation machine learning models and language detection capabilities.",
-          color: "#09631a",
+          color: "#FFA500",
+        },
+        {
+          title: "Analyst",
+          company: "Protégé Ventures",
+          company_url: "https://www.protege.vc",
+          logo_path: "protege.png",
+          duration: "Aug 2021 - Present",
+          location: "Singapore",
+          description:
+            "South East Asia's first student-run venture fund focusing on investments in great student ventures in the region.",
+          color: "#ff2626",
         },
         {
           title: "Technology Consulting Analyst",
@@ -492,7 +509,7 @@ const experience = {
           duration: "May 2020 - Jan 2021",
           location: "Singapore",
           description:
-            "I was offered extension by Yoozoo Games after the initial 3-month internship (May-Aug), spending a total of 9 months there. I implemented various TTS Machine Learning frameworks (tensorflow TTS, mozilla TTS, tacotron) to train multiple chatbots with different use cases.  I also did both back-end and front-end development on AI Virtual Assistant and Chatbot projects, and its testing and maintenance (k6, Postman, flask, fastapi). I performed Computer Vision Machine Learning model conversions and designed/built 3D modelling solution for a Covid-19 response project (Autodesk Fusion), cutting company cost by >10x.",
+            "Offered extension by Yoozoo Games after the initial 3-month internship (May-Aug), spending a total of 9 months there. Implemented various TTS Machine Learning frameworks (tensorflow TTS, mozilla TTS, tacotron) to train multiple chatbots with different use cases.  Created both back-end and front-end development on AI Virtual Assistant and Chatbot projects, and its testing and maintenance (k6, Postman, flask, fastapi). Performed Computer Vision Machine Learning model conversions and designed/built 3D modelling solution for a Covid-19 response project (Autodesk Fusion), cutting company cost by >10x.",
           color: "#fc1f20",
         },
         {
@@ -503,7 +520,7 @@ const experience = {
           duration: "Mar 2019 - Oct 2020",
           location: "Singapore",
           description:
-            "Worked directly with the Founder/CEO, having won Tech in Asia Pitch Night 2019, invited to Tech in Asia Conference 2019 in Jarkarta, invited for AWS Summit Singapore 2019 to deliver way-finding solution via Voice AI Concierge Booth. Led projects involving custom AI-centric solutions, patented holographic telepresence solution, and mananged multiple client accounts and relations. Trained and developed voice AI and NLP in multiple languages via Microsoft Azure LUIS. Eventually led a taem of language experts from various countries in South East Asia and improved NLP registered intent accuracy to over 90% for 4 languages for a MNC client project, involving >1000 unique testers worldwide.",
+            "Worked directly with the Founder/CEO, having won Tech in Asia Pitch Night 2019, invited to Tech in Asia Conference 2019 in Jarkarta, invited for AWS Summit Singapore 2019 to deliver way-finding solution via Voice AI Concierge Booth. Led projects involving custom AI-centric solutions, patented holographic telepresence solution, and mananged multiple client accounts and relations. Trained and developed voice AI and NLP in multiple languages via Microsoft Azure LUIS. Eventually led a team of language experts from various countries in South East Asia and improved NLP registered intent accuracy to over 90% for 4 languages for a MNC client project, involving >1000 unique testers worldwide.",
           color: "#0d5378",
         },
       ],
